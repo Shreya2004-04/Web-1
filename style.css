@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content :space-around;
+    background-color: black;
+    height: 100vh;
+}
+.photo{
+    background-image: url('./Robert.jpg');
+    height: 25rem;
+    width: 25rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+
+}
+.text{
+    color:white;
+    font-size: 3rem;
+    
+}
+.para{
+    color:white;
+    font-size:2rem;
+    
+    
+}
+
+    .top{
+        
+        color: turquoise;
+        font-size: 2rem;
+        
+        
+        
+        }
+    
+
+.Contact-button{
+    background-color:aquamarine;
+    width: 17%;
+    height: 2.5rem;
+    color:black;
+    border: 2px solid aquamarine;
+    font-size: 1.2rem;
+}
+
+@media(max-width: 767px){
+    body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .para{
+        font-size: 2rem;
+        text-align: justify;
+    }
+    .photo{
+        height: 22rem;
+        width: 19rem;
+        margin-top: 23rem
+    }
+    .top{
+        margin: 0 10%;
+        text-align: center;
+        
+
+    }
+    .Contact-button{
+        width: 6rem;
+        height: 3rem;
+
+        
+    }
+    .Contact{
+        padding-bottom:20%;}
+}
